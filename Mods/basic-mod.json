@@ -1,1 +1,7 @@
-
+{
+  "name": "Basic Mod",
+  "description": "This is a fictitious mod created to test the repository.",
+  "version": "1.0.0",
+  "files": [],
+  "dependencies": []
+}
