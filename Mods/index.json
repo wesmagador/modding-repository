@@ -1,8 +1,22 @@
-const { Router: er } = require('express');
-
-const router = er();
-
-router.get('/GetModInfo', require('./modInfo'));
-
-module.exports = router;
-
+{
+  "basePath": "https://seu-usuario.github.io/modding-repository/Mods/",
+  "serverID": "modding-repo-server",
+  "features": [
+    {
+      "id": "basic-mod",
+      "name": "Basic Mod",
+      "description": "This is a basic mod for testing purposes.",
+      "version": "1.0.0",
+      "files": [
+        {
+          "path": "files/file1.txt",
+          "size": 1024
+        },
+        {
+          "path": "files/file2.txt",
+          "size": 2048
+        }
+      ]
+    }
+  ]
+}
