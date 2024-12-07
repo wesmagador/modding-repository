@@ -1,7 +1,15 @@
 {
   "name": "Basic Mod",
-  "description": "This is a fictitious mod created to test the repository.",
+  "description": "This is a basic mod for testing purposes.",
   "version": "1.0.0",
-  "files": [],
-  "dependencies": []
+  "files": [
+    {
+      "path": "files/file1.txt",
+      "size": 1024
+    },
+    {
+      "path": "files/file2.txt",
+      "size": 2048
+    }
+  ]
 }
